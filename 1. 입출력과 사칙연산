@@ -1,1 +1,78 @@
-ㅁㄴㅇㄹ
+1.
+print("Hello World!")
+
+2.
+A, B = map(int, input().split())
+print(A + B)
+
+3.
+A, B = map(int, input().split()
+print(A - B)
+
+4.
+A, B = map(int, input().split())
+print(A * B)
+
+5.
+A, B = map(int, input().split())
+print(A // B)
+
+6.
+A, B = map(int, input().split())
+print(A + B)
+print(A - B)
+print(A * B)
+print(int(A / B))
+print(A % B)
+
+7.
+a = str(input())
+print(a + "??!")
+
+8.
+n = int(input())
+x = n - 543
+print(x)
+
+9.
+cp = [1, 1, 2, 2, 2, 8]
+li = list(map(int, input().split()))
+for i in range(6):
+    print(cp[i]-li[i], end=' ')
+    
+10.
+A, B, C = map(int, input().split())
+print((A+B) % C)
+print(((A % C) + (B % C)) % C)
+print((A*B) % C)
+print(((A % C) * (B % C)) % C)
+
+11.
+num1 = int(input())
+num2 = int(input())
+
+print(num1 * (num2%10))
+print(num1 * ((num2%100)//10))
+print(num1 * (num2//100))
+print(num1 * num2)
+
+12.
+print("\\    /\\");
+print(" )  ( ')");
+print("(  /  ) ");
+print(" \\(__)|");
+
+13.
+print("|\\_/|");
+print("|q p|   /}");
+print("( 0 )\"\"\"\\");
+print("|\"^\"`    |");
+print("||_/=\\\\__|");
+
+14.
+print("         ,r'\"7")
+print("r`-_   ,'  ,/")
+print(" \. \". L_r'")
+print("   `~\/")
+print("      |")
+print("      |")
