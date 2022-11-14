@@ -76,3 +76,138 @@ print(d, m, y, sep='-')
 # 6020
 f, e = input().split('-')
 print(f + e)
+
+# 6021
+s = input()
+print(s[0])
+print(s[1])
+print(s[2])
+print(s[3])
+print(s[4])
+
+# 6022
+s = input()
+print(s[0:2], s[2:4], s[4:6])
+
+# 6023
+h, m, s = input().split(':')
+print(m)
+
+# 6024
+w1, w2 = input().split()
+print(w1 + w2)
+
+# 6025
+a, b = input().split()
+c = int(a) + int(b)
+print(c)
+
+# 6026
+a = input()
+b = input()
+c = float(a) + float(b)
+print(c)
+
+# 2진수      bin( 정수 )
+# 8진수      oct( 정수 )
+# 16진수    hex( 정수 )
+
+# 6027
+a = input()
+n = int(a)
+print("%x" % n)
+
+# 6028
+a = input()
+n = int(a)
+print("%X" % n)
+
+# 6029
+a = input()
+n = int(a, 16)
+print("%o" % n)
+
+# 6030
+n = ord(input())
+print(n)
+
+# 6031
+c = int(input())
+print(chr(c))
+
+# 6032
+n = int(input())
+print(-n)
+
+# 6033
+n = ord(input()) + 1
+print(chr(n))
+
+# 6034
+a, b = map(int, input().split())
+c = int(a) - int(b)
+print(c)
+
+# 6035
+a, b = map(float, input().split())
+m = float(a) * float(b)
+print(m)
+
+# 6036
+a, b = input().split()
+print(a * int(b))
+
+#6037
+n = input()
+s = input()
+print(int(n) * s)
+
+# 6038
+a, b = map(int, input().split())
+c = int(a)**int(b)
+print(c)
+
+# 6039
+a, b = map(float, input().split())
+c = float(a)**float(b)
+print(c)
+
+# 6040
+a, b = map(int, input().split())
+c = int(a) // int(b)
+print(c)
+
+# 6041
+a, b = map(int, input().split())
+c = int(a) % int(b)
+print(c)
+
+# 6042
+a = float(input())
+print(format(a, ".2f"))
+
+# 6043
+a, b = map(float, input().split())
+c = float(a) / float(b)
+print(format(c, ".3f"))
+
+# 6044
+a, b = map(int, input().split())
+first = int(a) + int(b)
+second = int(a) - int(b)
+third = int(a) * int(b)
+forth = int(a) // int(b)
+fifth = int(a) % int(b)
+sixth = int(a) / int(b)
+
+print(first)
+print(second)
+print(third)
+print(forth)
+print(fifth)
+print(format(sixth, ".2f"))
+
+# 6045
+a, b, c = map(int, input().split())
+x = [a, b, c]
+print(sum(x), round(sum(x) / len(x), 2))
